@@ -1,0 +1,317 @@
+@font-face {
+    font-family: "Fjalla One";
+    src: url("/resources/fonts/FjallaOne-Regular.ttf");
+}
+
+@font-face {
+    font-family: "Noto Sans";
+    src: url("/resources/fonts/FjallaOne-Regular.ttf");
+}
+
+@font-face {
+    font-family: "Noto Sans";
+    src: url("/resources/fonts/NotoSans-Regular.ttf");
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* styling for the entire webpage */
+body {
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    line-height: 1.4em;
+    background-color: blueviolet;
+    color: maroon;
+	font-family: "Noto Sans", sans-serif;	
+    background-image: linear-gradient(pink,white);
+}
+
+/* header at the top with the blog name and logo */
+header {
+    max-width: 100%;
+    background-color: #68a8ad;
+    padding: 20px;    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: lime;
+}
+
+/* heading element for the blog name */
+h1 {
+    color: #ffffff;
+    font-size: 50px;
+    line-height: 1;
+	font-family: "Fjalla One", sans-serif;
+}
+
+/* logo image in the header */
+header img {
+    max-height: 70px;
+    width: auto;
+    margin-right: 10px;
+    margin-left: 0;
+}
+h1:hover{
+    color: purple;
+    text-shadow:  2px 3px 10px orange;
+}
+
+/* heading element for the title of each separate blog post */
+h2 {
+    font-size: 36px;
+    margin-top: 5px;
+    line-height: 120%;
+	font-family: "Fjalla One", sans-serif; 
+    color: black; 
+}
+h2:hover{
+    color: #ff0000;
+    
+}
+
+/* heading element for the date of each blog post */
+h3 {
+    font-size: 23px;
+    font-weight: 400;
+    color: green;
+    margin-top: -10px;
+    text-decoration: underline;
+    text-decoration-color: #9C9C9C;
+    text-decoration-color: #6d0a58;
+}
+h3:hover{
+color:#20938b
+}
+/* images in the blog posts */
+img {
+    max-width: 50%;
+    height: auto;
+    border-radius: 5px;
+    display: block;
+    margin: auto;
+    width: 30vw;
+    border-radius: 50px;
+
+}
+
+/* heading element for the image captions */
+h4 {
+  text-align: center;
+  font-size: 12px;
+  color: rgb(60, 0, 255);
+  width: auto;
+  margin: 5px 0 0 0;
+  padding: 0;
+}
+
+/* paragraph elements used to write the main blog post text */
+p {
+    font-size: 20px;
+    border-left: 5px solid goldenrod;
+    padding-left: 15px;
+    margin-top: 30px;
+    color: maroon;
+    font-family: cursive;
+}
+p:hover{
+    color: midnightblue;
+}
+
+/* the "back to top" links */
+a {
+    text-decoration: none;
+    font-size: 16px;
+    display: block;
+	margin-top: 30px;
+	text-align: center;
+	color: #20938b;
+	text-transform: uppercase;
+}
+
+/* styling for the "back to top" link when hovered */
+a:hover {
+  	color: #f3cc6f;  
+}
+#jln{
+   padding: 5px;
+   font-size:18px;
+   text-align: center;
+   background-color: green;
+   color: black;
+   border: 1px dashed yellow;
+   border-radius: 50px;
+}
+#hide{
+    color: rgb(225, 29, 173);
+    background-color: aqua;
+    border-radius: 5px;
+    text-shadow: palevioletred;
+}
+#hide:hover{
+color: red;
+}
+
+#show{
+    color: rgb(8, 232, 112);
+    background-color: rgb(55, 0, 255);
+    border-radius: 6px;
+    text-shadow: wheat;
+}
+
+#show:hover{
+    color: yellow;
+ }
+
+ #remove{
+    color: rgb(223, 155, 9);
+    background-color:blueviolet;
+    border-radius: 5px;
+    text-shadow: rgb(225, 29, 173);
+    border-radius: 5px;
+    border: 1px thick orange;
+}
+
+#remove:hover{
+color: aqua;
+}
+
+#zangmo{
+    padding: 5px;
+    font-size:18px;
+    text-align: center;
+    background-color: rgb(4, 149, 178);
+    color: brown;
+    border: 1px solid rgb(225, 29, 173);
+    border-radius: 50px;
+}
+
+#panel, #flip {
+    padding: 5px;
+    text-align: center;
+    background-color: yellow;
+    border: solid 1px peru;
+  }
+  
+  #panel{
+    padding: 50px;
+    display: none;
+  }
+  #pink{
+    text-align: center;
+    color: red;
+    text-shadow: blue 50px;
+    text-decoration: underline;
+    border-radius: 5px;
+}
+
+#hero{
+    text-align: center;
+    background-color: pink;
+    color: black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+#sg{
+    padding: 5px;
+    font-size:18px;
+    text-align: center;
+    background-color: blanchedalmond;
+    color: blueviolet;
+    border: 1px dashed rgb(236, 15, 214);
+    border-radius: 50px;
+}
+
+.bt{
+background-color: #20938b;
+align-items: center;
+}
+
+.sun{
+    background-color: #20938b;
+    align-items: center;
+    text-decoration-color: black;
+}
+
+.sun:hover{
+    color: aqua;
+}
+
+#btn1{
+    text-align: center;
+    background-color: rgb(76, 20, 165);
+    color:rgb(250, 10, 194);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border-radius: 5px;
+}
+
+#btn2{
+    text-align: center;
+    background-color: skyblue;
+    color:orangered;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border-radius: 5px;
+}
+
+#bone1{
+    text-align: center;
+    background-color: purple;
+    color:burlywood;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border-radius: 5px;
+}
+#bone2{
+    text-align: center;
+    background-color:darkgreen;
+    color:palevioletred;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border-radius: 5px;
+}
+#bone3{
+    text-align: center;
+    background-color:black;
+    color:lightseagreen;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border-radius: 5px;
+}
+
+#yoga1{
+    text-align: center;
+    background-color:blue;
+    color:black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border-radius: 5px;
+}
+
+#yoga2{
+    text-align: center;
+    background-color:darkturquoise;
+    color:rgb(224, 1, 1);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border-radius: 5px;   
+}
+
+.important {
+    font-weight: bold;
+    font-size: xx-large;
+  }
+  
+  .blue {
+    color: blue;
+  }
+
+  style{
+    font-family: cursive;
+    color: #6d0a58;
+  }
+
+  #di {
+    height: 100px;
+    width: 1270px;
+    padding: 10px;
+    margin: 3px;
+    border: 1px solid blue;
+    background-color: lightblue;
+  }
